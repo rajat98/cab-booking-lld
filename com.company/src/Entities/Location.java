@@ -1,0 +1,31 @@
+package Entities;
+
+public class Location {
+    private int x;
+    private int y;
+
+    public Location(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public double calculateDistance(Location b){
+        return Math.sqrt(Math.pow(this.getX()-b.getX(), 2)+Math.pow(this.y-b.getY(), 2));
+    }
+
+    @Override
+    public String toString() {
+        return "Location{" +
+                "x=" + x +
+                ", y=" + y +
+                '}';
+    }
+}
