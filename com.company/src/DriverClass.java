@@ -12,11 +12,11 @@ public class DriverClass {
         // register user
         Rider rider = iRiderService.registerRider("Rajat");
         //register driver
-        Driver driver1 = iDriverService.registerDriver("Driver Anna 1");
-        Driver driver2 =iDriverService.registerDriver("Driver Anna 2");
-        Driver driver3 =iDriverService.registerDriver("Driver Anna 3");
-        Driver driver4 =iDriverService.registerDriver("Driver Anna 4");
-        Driver driver5 =iDriverService.registerDriver("Driver Anna 5");
+        Driver driver1 = iDriverService.registerDriver("Driver 1");
+        Driver driver2 =iDriverService.registerDriver("Driver 2");
+        Driver driver3 =iDriverService.registerDriver("Driver 3");
+        Driver driver4 =iDriverService.registerDriver("Driver 4");
+        Driver driver5 =iDriverService.registerDriver("Driver 5");
 
         iDriverService.updateStatus(driver1.getName(), DriverStatus.UNAVAILABLE);
         //registered cab
