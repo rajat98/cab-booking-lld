@@ -44,10 +44,6 @@ The project is organized into several service interfaces, each responsible for a
 - Interface for managing ride-related operations.
 - Method: `endTrip(Ride ride)` - Marks the end of a ride and calculates the final trip cost.
 
-## Usage
-
-To use these service interfaces, you should create classes that implement these interfaces and provide concrete implementations of the defined methods. These interfaces serve as the contract for your cab booking system.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
